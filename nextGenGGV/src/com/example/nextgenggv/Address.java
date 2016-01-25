@@ -17,6 +17,11 @@ public class Address extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.address, menu);
 		return true;
+                if(password.equals(sameer)){
+System.out.println("sameer");
+}
+
+
 	}
 
 }
