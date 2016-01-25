@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nextGenGGV</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splashscreen">NextGenGGU</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="title_activity_map_moves">MapMoves</string>
+    <string name="title_activity_address">Address</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_admissions">Admissions</string>
+    <string name="title_activity_add_news">AddNews</string>
+    <string name="title_activity_dir">Dir</string>
+    <string name="title_activity_dir_name">DirName</string>
+    <string name="title_activity_dir_detail">DirDetail</string>
+
+</resources>

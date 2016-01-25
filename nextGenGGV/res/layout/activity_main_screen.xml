@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/mainscreen"
+    tools:context=".MainScreen" >
+
+    <Button
+        android:id="@+id/StudentPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admission"
+        android:layout_alignRight="@+id/dir"
+        android:onClick="student"
+        android:text="Student Portal" />
+
+    <Button
+        android:id="@+id/dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/about"
+        android:onClick="dir"
+        android:text="Directory" />
+
+    <Button
+        android:id="@+id/prog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dir"
+        android:layout_alignRight="@+id/dir"
+        android:layout_marginBottom="16dp"
+        android:onClick="prog"
+        android:text="Program" />
+
+    <Button
+        android:id="@+id/admission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/map"
+        android:layout_alignRight="@+id/StudentPort"
+        android:layout_marginBottom="21dp"
+        android:onClick="admission"
+        android:text="Admission" />
+
+    <Button
+        android:id="@+id/news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/prog"
+        android:layout_alignParentLeft="true"
+        android:onClick="news"
+        android:text="News And Updates" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/admission"
+        android:layout_alignBottom="@+id/admission"
+        android:layout_alignLeft="@+id/news"
+        android:layout_marginLeft="16dp"
+        android:onClick="about"
+        android:text="About Us" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/news"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="31dp"
+        android:onClick="map"
+        android:text="map" />
+
+</RelativeLayout>
